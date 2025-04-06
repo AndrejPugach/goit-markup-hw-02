@@ -79,15 +79,7 @@ a {
 .main-button:hover, .main-button:focus {
     background: #404bbf;
 }
-.main-button .main-button-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-}
-.advantages-title, .team-tile-list {
+.advantages-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -97,7 +89,7 @@ a {
 .team-item {
     background-color: #FFFFFF;
 }
-.advantages-text, .team-specialty {
+.advantages-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -107,17 +99,24 @@ a {
 .team-section {
     background: #f4f4fd;
 }
-.team-list {
+.team-section-list {
     background-color: #ffffff;
 }
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+.team-section-tile-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
+}
+.team-section-item-specialty {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 .portfolio-title {
     font-weight: 700;
