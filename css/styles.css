@@ -75,10 +75,10 @@ a {
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-}
-.main-button:hover .main-button:hover.main-button:hover {
-    background: #404bbf;
     cursor: pointer;
+}
+.main-button:hover, .main-button:focus {
+    background: #404bbf;
 }
 .main-button .main-button-text {
     font-family: "Roboto", sans-serif;
