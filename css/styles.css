@@ -3,12 +3,15 @@ body {
      color: #434455;
      background-color: #fff;
 }
+
 ul, ol {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -18,12 +21,15 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .header-logo .logo-part {
     color: #2e2f42;
 }
+
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
+
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -31,20 +37,24 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .contacts {
     font-style: normal;
 }
+
 .contacts-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .contacts-link:hover, .contacts-link:focus,
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
 }
+
 .page-footer {
     background-color: #2e2f42;
 }
@@ -52,9 +62,11 @@ a {
 .footer-text {
     color: #f4f4fd;
 }
+
 .main-section {
     background: #2e2f42;
 }
+
 .main-title {
     font-weight: 700;
     font-size: 56px;
@@ -63,6 +75,7 @@ a {
     text-align: center;
     color: #fff;
 }
+
 .main-button {
     border-radius: 4px;
     padding: 16px 32px;
@@ -76,9 +89,11 @@ a {
     background: #4d5ae5;
     cursor: pointer;
 }
+
 .main-button:hover, .main-button:focus {
     background: #404bbf;
 }
+
 .advantages-title {
     font-weight: 500;
     font-size: 20px;
@@ -86,9 +101,11 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .team-item {
     background-color: #FFFFFF;
 }
+
 .advantages-text {
     font-weight: 400;
     font-size: 16px;
@@ -96,13 +113,25 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.team-section {
+
+.section-team {
     background: #f4f4fd;
 }
-.team-section-list {
+
+.section-team-list {
     background-color: #ffffff;
 }
-.team-section-tile-list {
+
+.section-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.section-team-title-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -110,7 +139,8 @@ a {
     text-align: center;
     color: #2e2f42;
 }
-.team-section-item-specialty {
+
+.section-team-item-specialty {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -118,6 +148,7 @@ a {
     text-align: center;
     color: #434455;
 }
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -126,6 +157,7 @@ a {
     text-align: center;
     color: #2e2f42;
 }
+
 .job-title {
     font-weight: 500;
     font-size: 20px;
@@ -133,6 +165,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .direction {
     font-weight: 400;
     font-size: 16px;
